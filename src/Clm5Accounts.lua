@@ -1,6 +1,12 @@
 local Clm5Accounts = {}
 local Clm5Accounts_mt = {__metatable = {}, __index = Clm5Accounts}
 
+-----------------------------------------------------------------------------
+-- Create a new Clm5Accounts.
+--
+-- @param account_parametrs    the table is got from the json request.
+-- @return                     a table with accounts parameters.
+-----------------------------------------------------------------------------
 function Clm5Accounts:new(account_parametrs)
     local obj = setmetatable({}, Clm5Accounts_mt)
     obj.acc_owner_cus_id =  account_parametrs.acc_owner_cus_id
@@ -42,6 +48,4 @@ function Clm5Accounts:get_merged_accounts()
     return self.merged_accounts
 end
 
-module("Clm5Accounts")
-
---return Clm5Accounts
+return Clm5Accounts
