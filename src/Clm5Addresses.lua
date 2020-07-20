@@ -28,48 +28,64 @@ function Clm5Addresses:new(addresses_parametrs)
     return obj
 end
 
-function Clm5Addresses:get_ind_acc_id()
-    return self.ind_acc_id
+function Clm5Addresses:get_adr_city()
+    return self.adr_city
 end
 
-function Clm5Addresses:get_ind_audit_md()
-    return self.ind_audit_md
+function Clm5Addresses:get_adr_corpus()
+    return self.adr_corpus
 end
 
-function Clm5Addresses:get_ind_audit_mu()
-    return self.ind_audit_mu
+function Clm5Addresses:get_adr_country()
+    return self.adr_country
 end
 
-function Clm5Addresses:get_ind_blocked_by()
-    return self.ind_blocked_by
+function Clm5Addresses:get_adr_email()
+    return self.adr_email
 end
 
-function Clm5Addresses:get_ind_blocked_reason()
-    return self.ind_blocked_reason
+function Clm5Addresses:get_adr_fax()
+    return self.adr_fax
 end
 
-function Clm5Addresses:get_ind_cus_id()
-    return self.ind_cus_id
+function Clm5Addresses:get_adr_flat_no()
+    return self.adr_flat_no
 end
 
-function Clm5Addresses:get_ind_id()
-    return self.ind_id
+function Clm5Addresses:get_adr_house_frac()
+    return self.adr_house_frac
 end
 
-function Clm5Addresses:get_ind_idt_id()
-    return self.ind_idt_id
+function Clm5Addresses:get_adr_house_no()
+    return self.adr_house_no
 end
 
-function Clm5Addresses:get_ind_no()
-    return self.ind_no
+function Clm5Addresses:get_adr_mobile()
+    return self.adr_mobile
 end
 
-function Clm5Addresses:get_ind_pan()
-    return self.ind_pan
+function Clm5Addresses:get_adr_phone()
+    return self.adr_phone
 end
 
-function Clm5Addresses:get_ind_status()
-    return self.ind_status
+function Clm5Addresses:get_adr_regione_code()
+    return self.adr_regione_code
+end
+
+function Clm5Addresses:get_adr_street()
+    return self.adr_street
+end
+
+function Clm5Addresses:get_adr_street_prefix()
+    return self.adr_street_prefix
+end
+
+function Clm5Addresses:get_adr_subregion()
+    return self.adr_subregion
+end
+
+function Clm5Addresses:get_adr_zip_code()
+    return self.adr_zip_code
 end
 
 return Clm5Addresses
